@@ -6,6 +6,7 @@ FROM `products`
 WHERE stock < 30
 WITH CHECK OPTION;
 
+
 INSERT INTO low_stock_products (
   name,
   description,
